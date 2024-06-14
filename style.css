@@ -1,0 +1,274 @@
+body {
+    /* font-family: 'Poppins'; */
+    /* background-color: aqua; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F5F5F8;
+
+}
+
+h1 {
+
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #1B264F;
+    width: 60% !important;
+    margin: 0 auto;
+}
+
+h1 span {
+    color: #506BCA;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    h1 {
+
+        font-size: 28px !important;
+        line-height: 45px !important;
+        text-align: center;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .boxContent {
+        padding: 20px 5px;
+    }
+    
+    h3 {
+        font-family: Poppins;
+        font-size: 18px!important;
+        line-height: 32px!important;
+        /* text-align: left; */
+        /* margin-top: 0; */
+        /* margin-bottom: 0; */
+    }
+    
+    ul li {
+         
+        font-size: 12px!important;
+        font-weight: 700;
+        line-height: 24px!important;
+        /* text-align: left; */
+    }
+    
+    p {
+         
+        font-size: 13px!important;
+        font-weight: 600;
+        line-height: 19px!important;
+        padding-right: 5px;
+        /* text-align: left; */
+    }
+    .box {
+ 
+        gap: 5px!important;
+        /* padding-right: 40px; */
+         
+    }
+}
+
+@media (min-width: 576px) {
+
+    h1 {
+
+
+        font-size: 35px !important;
+        width: 100% !important;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    h1 {
+
+
+        font-size: 50px !important;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .box {
+    
+        gap: 6px!important;
+        
+    }
+    
+    h3 {
+        
+        font-size: 19px!important;
+        line-height: 29px!important;
+       
+    }
+    
+    
+    p {
+        
+        font-size: 12px!important;
+        line-height: 19px!important;
+        padding-right: 5px;
+        /* text-align: left; */
+    }
+    ul li {
+         
+        font-size: 11px!important;
+        
+    }
+
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h1 {
+
+        /* font-size: 39px!important; */
+        width: 80% !important
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+
+        width: 58% !important;
+        margin: 0 auto;
+    }
+
+    .box {
+        
+       
+        /* align-items: center; */
+        gap: 10px!important;
+        /* padding-right: 40px; */
+        
+    }
+    
+    .boxContent {
+        padding: 39px 3px;
+    }
+  
+    
+    h3 {
+        
+        font-size: 20px!important;
+        font-weight: 700;
+        line-height: 20px!important;
+        padding-bottom: 5px;
+        /* text-align: left; */
+        /* margin-top: 0; */
+        /* margin-bottom: 0; */
+    }
+    
+    p {
+        
+        font-size: 13px!important;
+        font-weight: 600;
+        line-height: 24px;
+        padding-right: 5px;
+        /* text-align: left; */
+    }
+
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    h1 {
+
+        width: 55% !important;
+        margin: 0 auto;
+    }
+    h3 {
+        
+        font-size: 24px!important;
+     }
+     p {
+        font-size: 15px!important;
+    }
+
+}
+
+
+.box {
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    /* align-items: center;  */
+    gap: 20px!important;
+    /* Adjust the gap between images and text */
+    /* padding-right: 40px; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    height: 336px;
+}
+
+ 
+ 
+h3 {
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    /* text-align: left; */
+
+    /* margin-top: 0; */
+    /* Remove default margin */
+    /* margin-bottom: 0; */
+    /* Remove default margin */
+
+}
+
+ul li {
+    font-family: Nunito Sans;
+font-size: 14px!important;
+font-weight: 700;
+line-height: 26px;
+/* text-align: left; */
+
+}
+ul li::marker {
+    color: #D2AD81; /* Sets color for bullet points */
+  }
+  
+p {
+    font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 24px;
+padding-right: 5px;
+/* text-align: left; */
+
+}
+.boxContent {
+    padding: 40px 5px;
+}
+.getStarted {
+    text-align: center;
+}
+.defButton {
+    width: 315px;
+    height: 60px;
+    /* padding: 25px; */
+    gap: 10px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #1B264F;
+    color: white;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid #1B264F;
+    letter-spacing: 1px; 
+}
